@@ -52,4 +52,19 @@ export default {
 .header-menu .menu-nav > .menu-item > .menu-link .menu-text:hover {
   color: #1bc5bd;
 }
+
+.wizard.wizard-1
+  .wizard-nav
+  .wizard-steps
+  .wizard-step[data-wizard-state="done"]
+  .wizard-label
+  .wizard-icon,
+.wizard.wizard-1
+  .wizard-nav
+  .wizard-steps
+  .wizard-step[data-wizard-state="current"]
+  .wizard-label
+  .wizard-icon {
+  color: #1bc5bd;
+}
 </style>

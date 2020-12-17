@@ -101,7 +101,7 @@ export default {
     };
   },
   components: {
-    Dropdown2,
+    Dropdown2
     // Dropdown4
   },
   computed: {
